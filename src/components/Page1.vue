@@ -12,8 +12,8 @@ export default {
       /* const _self = this; //定义一个_self防止后续操作中this丢失 */
       const option = {
         //定义一个包含有JS API中js开发包和css样式文件的对象
-        url: "http://localhost/arcgis_4.9/init.js",
-        css: "http://localhost/arcgis_4.9/esri/css/main.css"
+        url: "http://localhost:8080/arcgis_4.9/init.js",
+        css: "http://localhost:8080/arcgis_4.9/esri/css/main.css"
       };
 
       //通过loadModules来做衔接

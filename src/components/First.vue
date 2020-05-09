@@ -1,13 +1,29 @@
+
 <template>
-  <div>首页</div>
+  <div id="viewDiv">
+    首页
+  </div>
 </template>
+ 
 <script>
 export default {
-  name: "your-component",
+  name: "",
+  components: {},
+  props: {},
   data() {
     return {};
   },
 
-  mounted() {}
+  created() {},
+
+  mounted() {
+ 
+  },
+
+  computed: {},
+
+  methods: {}
 };
 </script>
+<style scoped>
+</style>
